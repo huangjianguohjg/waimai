@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D755F7C92133EB3B00FB572D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D755F7C82133EB3B00FB572D /* AppDelegate.m */; };
+		D755F7CC2133EB3B00FB572D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D755F7CB2133EB3B00FB572D /* ViewController.m */; };
+		D755F7CF2133EB3B00FB572D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D755F7CD2133EB3B00FB572D /* Main.storyboard */; };
+		D755F7D12133EB3B00FB572D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D755F7D02133EB3B00FB572D /* Assets.xcassets */; };
+		D755F7D42133EB3B00FB572D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D755F7D22133EB3B00FB572D /* LaunchScreen.storyboard */; };
+		D755F7D72133EB3B00FB572D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D755F7D62133EB3B00FB572D /* main.m */; };
+		D755F7E12133EB3B00FB572D /* waimaiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D755F7E02133EB3B00FB572D /* waimaiTests.m */; };
+		D755F7EC2133EB3B00FB572D /* waimaiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D755F7EB2133EB3B00FB572D /* waimaiUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D755F7DD2133EB3B00FB572D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D755F7BC2133EB3B00FB572D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D755F7C32133EB3B00FB572D;
+			remoteInfo = waimai;
+		};
+		D755F7E82133EB3B00FB572D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D755F7BC2133EB3B00FB572D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D755F7C32133EB3B00FB572D;
+			remoteInfo = waimai;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D755F7C42133EB3B00FB572D /* waimai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = waimai.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D755F7C72133EB3B00FB572D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D755F7C82133EB3B00FB572D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D755F7CA2133EB3B00FB572D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D755F7CB2133EB3B00FB572D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D755F7CE2133EB3B00FB572D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D755F7D02133EB3B00FB572D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D755F7D32133EB3B00FB572D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D755F7D52133EB3B00FB572D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D755F7D62133EB3B00FB572D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D755F7DC2133EB3B00FB572D /* waimaiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = waimaiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D755F7E02133EB3B00FB572D /* waimaiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = waimaiTests.m; sourceTree = "<group>"; };
+		D755F7E22133EB3B00FB572D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D755F7E72133EB3B00FB572D /* waimaiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = waimaiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D755F7EB2133EB3B00FB572D /* waimaiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = waimaiUITests.m; sourceTree = "<group>"; };
+		D755F7ED2133EB3B00FB572D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D755F7C12133EB3B00FB572D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D755F7D92133EB3B00FB572D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D755F7E42133EB3B00FB572D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D755F7BB2133EB3B00FB572D = {
+			isa = PBXGroup;
+			children = (
+				D755F7C62133EB3B00FB572D /* waimai */,
+				D755F7DF2133EB3B00FB572D /* waimaiTests */,
+				D755F7EA2133EB3B00FB572D /* waimaiUITests */,
+				D755F7C52133EB3B00FB572D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D755F7C52133EB3B00FB572D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D755F7C42133EB3B00FB572D /* waimai.app */,
+				D755F7DC2133EB3B00FB572D /* waimaiTests.xctest */,
+				D755F7E72133EB3B00FB572D /* waimaiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D755F7C62133EB3B00FB572D /* waimai */ = {
+			isa = PBXGroup;
+			children = (
+				D755F7C72133EB3B00FB572D /* AppDelegate.h */,
+				D755F7C82133EB3B00FB572D /* AppDelegate.m */,
+				D755F7CA2133EB3B00FB572D /* ViewController.h */,
+				D755F7CB2133EB3B00FB572D /* ViewController.m */,
+				D755F7CD2133EB3B00FB572D /* Main.storyboard */,
+				D755F7D02133EB3B00FB572D /* Assets.xcassets */,
+				D755F7D22133EB3B00FB572D /* LaunchScreen.storyboard */,
+				D755F7D52133EB3B00FB572D /* Info.plist */,
+				D755F7D62133EB3B00FB572D /* main.m */,
+			);
+			path = waimai;
+			sourceTree = "<group>";
+		};
+		D755F7DF2133EB3B00FB572D /* waimaiTests */ = {
+			isa = PBXGroup;
+			children = (
+				D755F7E02133EB3B00FB572D /* waimaiTests.m */,
+				D755F7E22133EB3B00FB572D /* Info.plist */,
+			);
+			path = waimaiTests;
+			sourceTree = "<group>";
+		};
+		D755F7EA2133EB3B00FB572D /* waimaiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D755F7EB2133EB3B00FB572D /* waimaiUITests.m */,
+				D755F7ED2133EB3B00FB572D /* Info.plist */,
+			);
+			path = waimaiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D755F7C32133EB3B00FB572D /* waimai */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D755F7F02133EB3B00FB572D /* Build configuration list for PBXNativeTarget "waimai" */;
+			buildPhases = (
+				D755F7C02133EB3B00FB572D /* Sources */,
+				D755F7C12133EB3B00FB572D /* Frameworks */,
+				D755F7C22133EB3B00FB572D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = waimai;
+			productName = waimai;
+			productReference = D755F7C42133EB3B00FB572D /* waimai.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D755F7DB2133EB3B00FB572D /* waimaiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D755F7F32133EB3B00FB572D /* Build configuration list for PBXNativeTarget "waimaiTests" */;
+			buildPhases = (
+				D755F7D82133EB3B00FB572D /* Sources */,
+				D755F7D92133EB3B00FB572D /* Frameworks */,
+				D755F7DA2133EB3B00FB572D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D755F7DE2133EB3B00FB572D /* PBXTargetDependency */,
+			);
+			name = waimaiTests;
+			productName = waimaiTests;
+			productReference = D755F7DC2133EB3B00FB572D /* waimaiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D755F7E62133EB3B00FB572D /* waimaiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D755F7F62133EB3B00FB572D /* Build configuration list for PBXNativeTarget "waimaiUITests" */;
+			buildPhases = (
+				D755F7E32133EB3B00FB572D /* Sources */,
+				D755F7E42133EB3B00FB572D /* Frameworks */,
+				D755F7E52133EB3B00FB572D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D755F7E92133EB3B00FB572D /* PBXTargetDependency */,
+			);
+			name = waimaiUITests;
+			productName = waimaiUITests;
+			productReference = D755F7E72133EB3B00FB572D /* waimaiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D755F7BC2133EB3B00FB572D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Developer;
+				TargetAttributes = {
+					D755F7C32133EB3B00FB572D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					D755F7DB2133EB3B00FB572D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D755F7C32133EB3B00FB572D;
+					};
+					D755F7E62133EB3B00FB572D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D755F7C32133EB3B00FB572D;
+					};
+				};
+			};
+			buildConfigurationList = D755F7BF2133EB3B00FB572D /* Build configuration list for PBXProject "waimai" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D755F7BB2133EB3B00FB572D;
+			productRefGroup = D755F7C52133EB3B00FB572D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D755F7C32133EB3B00FB572D /* waimai */,
+				D755F7DB2133EB3B00FB572D /* waimaiTests */,
+				D755F7E62133EB3B00FB572D /* waimaiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D755F7C22133EB3B00FB572D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D755F7D42133EB3B00FB572D /* LaunchScreen.storyboard in Resources */,
+				D755F7D12133EB3B00FB572D /* Assets.xcassets in Resources */,
+				D755F7CF2133EB3B00FB572D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D755F7DA2133EB3B00FB572D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D755F7E52133EB3B00FB572D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D755F7C02133EB3B00FB572D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D755F7CC2133EB3B00FB572D /* ViewController.m in Sources */,
+				D755F7D72133EB3B00FB572D /* main.m in Sources */,
+				D755F7C92133EB3B00FB572D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D755F7D82133EB3B00FB572D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D755F7E12133EB3B00FB572D /* waimaiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D755F7E32133EB3B00FB572D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D755F7EC2133EB3B00FB572D /* waimaiUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D755F7DE2133EB3B00FB572D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D755F7C32133EB3B00FB572D /* waimai */;
+			targetProxy = D755F7DD2133EB3B00FB572D /* PBXContainerItemProxy */;
+		};
+		D755F7E92133EB3B00FB572D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D755F7C32133EB3B00FB572D /* waimai */;
+			targetProxy = D755F7E82133EB3B00FB572D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D755F7CD2133EB3B00FB572D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D755F7CE2133EB3B00FB572D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D755F7D22133EB3B00FB572D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D755F7D32133EB3B00FB572D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D755F7EE2133EB3B00FB572D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D755F7EF2133EB3B00FB572D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D755F7F12133EB3B00FB572D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = waimai/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hhhhhh.waimai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D755F7F22133EB3B00FB572D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = waimai/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hhhhhh.waimai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D755F7F42133EB3B00FB572D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = waimaiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hhhhhh.waimaiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/waimai.app/waimai";
+			};
+			name = Debug;
+		};
+		D755F7F52133EB3B00FB572D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = waimaiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hhhhhh.waimaiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/waimai.app/waimai";
+			};
+			name = Release;
+		};
+		D755F7F72133EB3B00FB572D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = waimaiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hhhhhh.waimaiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = waimai;
+			};
+			name = Debug;
+		};
+		D755F7F82133EB3B00FB572D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = waimaiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hhhhhh.waimaiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = waimai;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D755F7BF2133EB3B00FB572D /* Build configuration list for PBXProject "waimai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D755F7EE2133EB3B00FB572D /* Debug */,
+				D755F7EF2133EB3B00FB572D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D755F7F02133EB3B00FB572D /* Build configuration list for PBXNativeTarget "waimai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D755F7F12133EB3B00FB572D /* Debug */,
+				D755F7F22133EB3B00FB572D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D755F7F32133EB3B00FB572D /* Build configuration list for PBXNativeTarget "waimaiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D755F7F42133EB3B00FB572D /* Debug */,
+				D755F7F52133EB3B00FB572D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D755F7F62133EB3B00FB572D /* Build configuration list for PBXNativeTarget "waimaiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D755F7F72133EB3B00FB572D /* Debug */,
+				D755F7F82133EB3B00FB572D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D755F7BC2133EB3B00FB572D /* Project object */;
+}
